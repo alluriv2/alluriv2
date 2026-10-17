@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" width="1280" height="280" role="img" aria-label="Vaibhav Alluri, Data Engineer. Data systems that stay resilient when the real world gets messy.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" width="1280" height="280" role="img" aria-label="Vaibhav Alluri, Data Engineer.">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#1c2b3d"/></linearGradient><linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f81f7" stop-opacity="0"/><stop offset="1" stop-color="#2f81f7" stop-opacity="0.9"/></linearGradient></defs>
 <rect width="1280" height="280" rx="14" fill="url(#bg)"/>
 <line x1="0" y1="0" x2="0" y2="280" stroke="#ffffff" stroke-opacity="0.025"/>
@@ -21,9 +21,8 @@
 <line x1="0" y1="70" x2="1280" y2="70" stroke="#ffffff" stroke-opacity="0.025"/>
 <line x1="0" y1="140" x2="1280" y2="140" stroke="#ffffff" stroke-opacity="0.025"/>
 <line x1="0" y1="210" x2="1280" y2="210" stroke="#ffffff" stroke-opacity="0.025"/>
-<text x="64" y="122" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Vaibhav Alluri</text>
-<text x="66" y="168" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#58a6ff">Data Engineer</text>
-<text x="66" y="210" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#9da7b3">Data systems that stay resilient when the real world gets messy</text>
+<text x="64" y="144" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Vaibhav Alluri</text>
+<text x="66" y="192" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#58a6ff">Data Engineer</text>
 <line x1="780" y1="140" x2="1095" y2="140" stroke="url(#fade)" stroke-width="3"/>
 <rect x="790" y="127" width="26" height="26" rx="6" fill="#2f81f7" fill-opacity="0.25" stroke="#2f81f7" stroke-opacity="0.45"/>
 <rect x="850" y="127" width="26" height="26" rx="6" fill="#2f81f7" fill-opacity="0.40" stroke="#2f81f7" stroke-opacity="0.60"/>
