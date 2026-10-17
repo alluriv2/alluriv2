@@ -2,12 +2,6 @@
   <img src="assets/banner.svg" alt="Vaibhav Alluri — Data Engineer" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/vaibhavalluri"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:vaibhav.sai5076@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://alluriv.dev"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"></a>
-</p>
-
 ## Hey, I’m Vaibhav 👋
 
 I’m a data engineer based in New Jersey. I enjoy connecting pipelines, infrastructure, storage, and backend services into platforms that remain dependable as they grow.
@@ -43,9 +37,9 @@ Databricks · Issued October 2026 · Expires October 2028
 Always happy to connect and chat about data platforms, distributed systems, or a bug that refuses to explain itself.
 
 <p align="center">
-  <a href="https://linkedin.com/in/vaibhavalluri">LinkedIn</a>
-  ·
-  <a href="mailto:vaibhav.sai5076@gmail.com">Email</a>
-  ·
-  <a href="https://alluriv.dev">Portfolio</a>
+  <a href="https://linkedin.com/in/vaibhavalluri"><img alt="LinkedIn" title="LinkedIn" src="https://skillicons.dev/icons?i=linkedin" width="48"></a>
+  &nbsp;&nbsp;
+  <a href="mailto:vaibhav.sai5076@gmail.com"><img alt="Email" title="Email" src="https://skillicons.dev/icons?i=gmail" width="48"></a>
+  &nbsp;&nbsp;
+  <a href="https://alluriv.dev"><img alt="Portfolio" title="Portfolio" src="https://skillicons.dev/icons?i=vercel" width="48"></a>
 </p>
