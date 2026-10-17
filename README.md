@@ -27,19 +27,6 @@ flowchart LR
     H -.->|deploys| G
 ```
 
-### Featured projects
-
-| Project | What it shows |
-|---|---|
-| **[Real-Time Telemetry Analytics Platform](https://github.com/alluriv2/real-time-telemetry-analytics-platform)**<br/>Kafka · PostgreSQL · FastAPI · Dash · AWS | End-to-end: ingestion, storage, API, live dashboard. 1,000-record batches, Kafka offsets committed after the database commit, auto-deploy once CI passes |
-| **[Enterprise Analytical Data Warehouse](https://github.com/alluriv2/enterprise-analytical-data-warehouse)**<br/>SQL · MySQL | Sales and rental sources in one star schema, late-arriving fact handling, SCD Type 2 history |
-| **[Weather Analytics on Kubernetes](https://github.com/alluriv2/Weather-Analytics-Platform)**<br/>Kafka · Kubernetes · Prometheus · Grafana | Same design on Kubernetes: ordered startup, per-station watermarks, scheduled reconciliation |
-| **[911CallSight](https://github.com/alluriv2/911CallSight)**<br/>Whisper · Ollama · PostgreSQL · Flask | Audio to structured, queryable incident data with a local LLM |
-| **[Weather Data Ingestion Pipeline](https://github.com/alluriv2/weather-data-ingestion-pipeline)**<br/>Python · DuckDB | Incremental, idempotent ingestion of live station logs |
-| **[YourFlix](https://github.com/alluriv2/YourFlix)**<br/>Swift · SwiftUI | Native macOS app that turns photo folders into a streaming-style library |
-
-Also built: a Java and Spring Boot version of the weather platform (600K+ observations per station, zero data loss across restarts) and a counterfactual analysis of EMS stroke response times on the 2024 NEMSIS dataset.
-
 ### Experience
 
 | | |
