@@ -21,7 +21,7 @@ I’m most interested in what happens beyond the happy path: delayed events, dup
   <img alt="Python, Java, PostgreSQL, Kafka, FastAPI, Docker, Kubernetes, Terraform, Azure, AWS, GitHub Actions, Grafana, and Prometheus" src="https://skillicons.dev/icons?i=python,java,postgres,kafka,fastapi,docker,kubernetes,terraform,azure,aws,githubactions,grafana,prometheus&perline=13">
 </p>
 
-## 🎓 Certifications
+## 📜 Certifications
 
 <a href="https://credentials.databricks.com/6af48eea-8dc3-4ab5-9168-a1507909fac1">
   <img alt="Databricks Certified Data Engineer Associate" src="https://img.shields.io/badge/Databricks-Certified_Data_Engineer_Associate-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
