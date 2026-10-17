@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Vaibhav Alluri, Data Engineer. Event-driven pipelines with Kafka, PostgreSQL, Azure and AWS." width="100%">
+  <img src="assets/banner.svg" alt="Vaibhav Alluri, Data Engineer. Data systems that stay resilient when the real world gets messy." width="100%">
 </p>
 
 <p align="center">
@@ -8,34 +8,30 @@
   <a href="https://alluriv.dev"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge"></a>
 </p>
 
-<p align="center">
-  I build data pipelines that keep working when things fail: replay-safe, recoverable, and deployed end to end.
-</p>
+I'm a data engineer who connects infrastructure, pipelines, storage, APIs and observability into one dependable platform.
 
-### By the numbers
+I'm most interested in what happens beyond the happy path: delayed events, duplicate messages, stale data, interrupted services, and systems that have to stay reliable as they grow. I write about the architecture decisions and tradeoffs behind my work at [alluriv.dev](https://alluriv.dev).
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%"><h2>600K+</h2>real observations ingested per station<br/><sub>Java weather platform</sub></td>
-    <td align="center" width="25%"><h2>1.9M</h2>messages streamed in one verification run<br/><sub>Java weather platform</sub></td>
-    <td align="center" width="25%"><h2>0</h2>records lost across repeated stop and restart cycles<br/><sub>Java weather platform</sub></td>
-    <td align="center" width="25%"><h2>45%</h2>drop in customer complaint rates<br/><sub>Amazon, Risk Operations</sub></td>
-  </tr>
-</table>
+### What failures have taught me
 
-### Problems I've solved
+- **Assume messages arrive twice, late, or out of order.** Design every write so a replay changes nothing.
+- **A green health check should mean data is flowing.** A running container is not the same as a working pipeline.
+- **Test where the user is.** If it only works from the command line, it does not work yet.
 
-- **1.25 million duplicate messages.** After a consumer fell behind, a live producer republished history it had already sent. I traced it through the producer logs and the watermark table to a stale fallback timestamp, fixed it at the source, and verified the fix in production.
-- **A consumer that went silent while every health check stayed green.** It had left its Kafka group but its container stayed up, so the dashboard served stale data. I added a watchdog that restarts it and a data-freshness health endpoint that an uptime monitor can watch.
-- **A CORS failure only a browser could see.** Requests worked in curl and failed in real browsers. Testing in a browser found it, and an origin allowlist fixed it.
+### When systems push back
 
-### Experience
+**Duplicate events after consumer lag.** A consumer fell behind, and a live producer began republishing history it had already sent. I traced it through producer logs and processing watermarks to a stale fallback timestamp, corrected the source behavior, and verified the fix in production.
 
-| | |
-|---|---|
-| **Now** | Data Engineer, Global Infrastructure Services: private-networked Azure environment (AKS, HDInsight Kafka, SQL Server) for a public-health data platform, with runbooks and readiness criteria for its move to pilot |
-| **Before** | Amazon, Data Analyst and Business Analyst: complaint analysis behind a 45% drop in complaint rates; appeal analysis that lifted a compliance classifier from 46% to 65% accuracy |
-| **Education** | MS Applied Data Science, Clarkson University (4.0 GPA) |
+**Healthy container, silent consumer.** A Kafka consumer had left its group while its container kept passing infrastructure health checks, so the dashboard stayed online and served stale data. I added a watchdog and a data-freshness endpoint so health reflects whether the pipeline is actually progressing.
+
+**The request worked everywhere except the browser.** The API succeeded from command-line clients and failed in real browsers. Browser testing exposed a CORS gap, and an explicit origin allowlist resolved it.
+
+### Path
+
+- **Global Infrastructure Services:** Data Engineer, building cloud and data-platform infrastructure for a public-health data platform
+- **Amazon:** risk and compliance analytics
+- **Clarkson University:** M.S. in Applied Data Science
+- **Databricks Certified Data Engineer Associate**
 
 ### Tools
 
