@@ -1,7 +1,5 @@
-<h1 align="center">Vaibhav Alluri</h1>
-
 <p align="center">
-  <b>Data Engineer</b> · Kafka · Python · PostgreSQL · Azure &amp; AWS · Ex-Amazon
+  <img src="assets/banner.svg" alt="Vaibhav Alluri, Data Engineer. Event-driven pipelines with Kafka, PostgreSQL, Azure and AWS." width="100%">
 </p>
 
 <p align="center">
@@ -14,18 +12,22 @@
   I build data pipelines that keep working when things fail: replay-safe, recoverable, and deployed end to end.
 </p>
 
-```mermaid
-flowchart LR
-    A[Live and historical<br/>sensor data] --> B[Kafka]
-    B --> C[Consumer<br/>idempotent writes]
-    C --> D[(PostgreSQL)]
-    D --> E[Aggregates]
-    D --> F[REST API]
-    E --> G[Live dashboard]
-    F --> G
-    H[GitHub Actions<br/>CI/CD] -.->|deploys| B
-    H -.->|deploys| G
-```
+### By the numbers
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><h2>600K+</h2>real observations ingested per station<br/><sub>Java weather platform</sub></td>
+    <td align="center" width="25%"><h2>1.9M</h2>messages streamed in one verification run<br/><sub>Java weather platform</sub></td>
+    <td align="center" width="25%"><h2>0</h2>records lost across repeated stop and restart cycles<br/><sub>Java weather platform</sub></td>
+    <td align="center" width="25%"><h2>45%</h2>drop in customer complaint rates<br/><sub>Amazon, Risk Operations</sub></td>
+  </tr>
+</table>
+
+### Problems I've solved
+
+- **1.25 million duplicate messages.** After a consumer fell behind, a live producer republished history it had already sent. I traced it through the producer logs and the watermark table to a stale fallback timestamp, fixed it at the source, and verified the fix in production.
+- **A consumer that went silent while every health check stayed green.** It had left its Kafka group but its container stayed up, so the dashboard served stale data. I added a watchdog that restarts it and a data-freshness health endpoint that an uptime monitor can watch.
+- **A CORS failure only a browser could see.** Requests worked in curl and failed in real browsers. Testing in a browser found it, and an origin allowlist fixed it.
 
 ### Experience
 
