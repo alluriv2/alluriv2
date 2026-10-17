@@ -6,21 +6,19 @@
 
 I’m a data engineer based in New Jersey. I enjoy connecting pipelines, infrastructure, storage, and backend services into platforms that remain dependable as they grow.
 
-This is where I keep the things I’m building, experimenting with, and learning along the way.
+I’m most interested in what happens beyond the happy path: delayed events, duplicate messages, stale data, and interrupted services.
 
-- 🔭 Building cloud infrastructure for a public-health data platform
+- 🔭 Data Engineer at Global Infrastructure Services, building cloud infrastructure for a public-health data platform
 - ⚙️ Working with batch pipelines, event streams, and backend services
-- 🌱 Exploring Java, Spring Boot, and Databricks
-- 📝 Sharing the deeper engineering stories at [alluriv.dev](https://alluriv.dev)
+- 🌱 Deepening my Java and Spring Boot
+- 🎓 M.S. in Applied Data Science, Clarkson University
+- 🤝 Open to Data Engineer roles
+- 📌 My best work is pinned below, and the engineering stories behind it are at [alluriv.dev](https://alluriv.dev)
 
 ## 🧰 Tools I Reach For
 
 <p align="center">
-  <img alt="Python, Java, PostgreSQL, Kafka, FastAPI, Docker, Kubernetes, Terraform, Azure, AWS, GitHub Actions, Grafana, and Prometheus" src="https://skillicons.dev/icons?i=python,java,postgres,kafka,fastapi,docker,kubernetes,terraform,azure,aws,githubactions,grafana,prometheus&perline=7">
-</p>
-
-<p align="center">
-  Python · Java · SQL · Kafka · PostgreSQL · Azure · Kubernetes · Terraform
+  <img alt="Python, Java, PostgreSQL, Kafka, FastAPI, Docker, Kubernetes, Terraform, Azure, AWS, GitHub Actions, Grafana, and Prometheus" src="https://skillicons.dev/icons?i=python,java,postgres,kafka,fastapi,docker,kubernetes,terraform,azure,aws,githubactions,grafana,prometheus&perline=13">
 </p>
 
 ## 🎓 Certifications
@@ -29,7 +27,6 @@ This is where I keep the things I’m building, experimenting with, and learning
   <img alt="Databricks Certified Data Engineer Associate" src="https://img.shields.io/badge/Databricks-Certified_Data_Engineer_Associate-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
 </a>
 
-**Databricks Certified Data Engineer Associate**  
 Databricks · Issued October 2026 · Expires October 2028
 
 ## 🤝 Say Hello
