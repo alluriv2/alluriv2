@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=2" alt="Vaibhav Alluri — Data Engineer" width="100%">
+  <img src="assets/banner.svg?v=3" alt="Vaibhav Alluri — Data Engineer" width="100%">
 </p>
 
 ## Hey, I’m Vaibhav 👋
