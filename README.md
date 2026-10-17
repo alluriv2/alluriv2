@@ -15,7 +15,7 @@ I’m most interested in what happens beyond the happy path: delayed events, dup
 - 🤝 Open to Data Engineer roles
 - 📌 My best work is pinned below, and the engineering stories behind it are at [alluriv.dev](https://alluriv.dev)
 
-## 🧰 Tools I Reach For
+## 🔧 Tools I Reach For
 
 <p align="center">
   <img alt="Python, Java, PostgreSQL, Kafka, FastAPI, Docker, Kubernetes, Terraform, Azure, AWS, GitHub Actions, Grafana, and Prometheus" src="https://skillicons.dev/icons?i=python,java,postgres,kafka,fastapi,docker,kubernetes,terraform,azure,aws,githubactions,grafana,prometheus&perline=13">
