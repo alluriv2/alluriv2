@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Vaibhav Alluri, Data Engineer. Things flow. Things fail. Good systems recover. Animation: events move through Ingest, Stream, Process, Persist and Serve; a failed event at Process is retried and replayed back into Process.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Vaibhav Alluri, Data Engineer. Things flow. Things fail. Resilient systems recover. Animation: events move through Ingest, Stream, Process, Persist and Serve; a failed event at Process is retried and replayed back into Process.">
 <style>
 @keyframes n1{0.0%{transform:translate(0px,0);opacity:0}20.0%{transform:translate(0px,0);opacity:0}22.857%{transform:translate(34.8px,0);opacity:1}70.344%{transform:translate(613.2px,0);opacity:1}73.201%{transform:translate(648px,0);opacity:0}100.0%{transform:translate(0px,0);opacity:0}}
 .n1{animation:n1 7.0s linear infinite}
@@ -59,7 +59,7 @@
 <text x="56" y="92" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="1.5" fill="#fff">VAIBHAV ALLURI</text>
 <text x="58" y="128" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4" fill="#58a6ff">DATA ENGINEER</text>
 <text x="58" y="190" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#9fb0c3">Things flow. Things fail.</text>
-<text x="58" y="234" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="35" font-weight="800" fill="#fff">Good systems recover.</text>
+<text x="58" y="234" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="35" font-weight="800" fill="#fff">Resilient systems recover.</text>
 <rect x="58" y="246" width="250" height="4" rx="2" fill="url(#bar)"/>
 <text x="58" y="292" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#7d8da1">PIPELINES · PLATFORMS · RELIABILITY</text>
 <line x1="530" y1="130" x2="558" y2="130" stroke="#58a6ff" stroke-opacity="0.5" stroke-width="2" marker-end="url(#arB)"/>

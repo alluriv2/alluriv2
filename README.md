@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-animated.svg?v=5" alt="Vaibhav Alluri — Data Engineer. Things flow. Things fail. Good systems recover." width="100%">
+  <img src="assets/banner-animated.svg?v=6" alt="Vaibhav Alluri — Data Engineer. Things flow. Things fail. Resilient systems recover." width="100%">
 </p>
 
 ## Hey, I’m Vaibhav 👋
